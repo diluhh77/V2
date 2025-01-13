@@ -75,13 +75,13 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "BYTE-LITE~" + string_session;
+                       /*let md = "" + string_session;*/
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there BYTE-LITE User! 👋🏻* 
+                        let desc = `*Hello there ACD-MD-V2 User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using BYTE-LITE 💙* 
+ *Thanks for using ACD-MD-V2 💙* 
 
 > Join WhatsApp Channel :- ⤵️
  
@@ -89,16 +89,16 @@ https://whatsapp.com/channel/0029VaxjtKx65yDATdmDRG0C
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/Hyhamza/BYTE-LITE
+https://github.com/ACD-MD-V2/COMINGSOON
 
-> *© Powered BY TalkDrove 💙*`; 
+> *© Powered BY ᴄʀᴏɴᴀᴢ xᴅ 💙*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "TalkDrove",
-thumbnailUrl: "https://i.ibb.co/GsW8fST/Manul-Ofc-X.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VaxjtKx65yDATdmDRG0C",
+thumbnailUrl: "https://files.catbox.moe/azpezv.png",
+sourceUrl: "https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -107,14 +107,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploy BYTE-LITE*\n\n ◦ *Github:* https://github.com/Hyhamza/BYTE-LITE`;
+                            let desc = `*Don't Share with anyone this code use for deploy ACD-MD-V2*\n\n ◦ *Github:* https://github.com/ACD-MD-V2/COMINGSOON`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "TalkDrove",
-thumbnailUrl: "https://i.ibb.co/GsW8fST/Manul-Ofc-X.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VaxjtKx65yDATdmDRG0C",
+thumbnailUrl: "https://files.catbox.moe/azpezv.png",
+sourceUrl: "https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
