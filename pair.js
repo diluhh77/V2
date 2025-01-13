@@ -96,7 +96,7 @@ https://github.com/ACD-MD-V2/COMINGSOON
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "TalkDrove",
+title: "𝐂ʀᴏɴᴀᴢ 𝐗ᴅ",
 thumbnailUrl: "https://files.catbox.moe/azpezv.png",
 sourceUrl: "https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e",
 mediaType: 1,
@@ -112,7 +112,7 @@ renderLargerThumbnail: true
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "TalkDrove",
+title: "𝐂ʀᴏɴᴀᴢ 𝐗ᴅ",
 thumbnailUrl: "https://files.catbox.moe/azpezv.png",
 sourceUrl: "https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e",
 mediaType: 2,
