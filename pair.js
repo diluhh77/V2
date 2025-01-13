@@ -75,21 +75,21 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "" + string_session;
+                        let md = "𝐂𝐫𝐨𝐧𝐞𝐱𝐁𝐨𝐭~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there ACD-MD-V2 User! 👋🏻* 
+                        let desc = `*Hello there CRONAZ-XD User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using ACD-MD-V2 💙* 
+ *Thanks for using CRONAZ-XD 💙* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029VaxjtKx65yDATdmDRG0C
+https://whatsapp.com/channel/0029Vb2xO7DJpe8fde8IGh14
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/ACD-MD-V2/COMINGSOON
+https://github.com/COMINGSOON
 
 > *© Powered BY ᴄʀᴏɴᴀᴢ xᴅ 💙*`; 
                         await sock.sendMessage(sock.user.id, {
@@ -97,8 +97,8 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "𝐂ʀᴏɴᴀᴢ 𝐗ᴅ",
-thumbnailUrl: "https://files.catbox.moe/azpezv.png",
-sourceUrl: "https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e",
+thumbnailUrl: "https://cdn.ironman.my.id/q/DJzje.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vb2xO7DJpe8fde8IGh14",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -113,8 +113,8 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "𝐂ʀᴏɴᴀᴢ 𝐗ᴅ",
-thumbnailUrl: "https://files.catbox.moe/azpezv.png",
-sourceUrl: "https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e",
+thumbnailUrl: "https://cdn.ironman.my.id/q/DJzje.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vb2xO7DJpe8fde8IGh14",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
