@@ -70,21 +70,21 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "𝐂𝐫𝐨𝐧𝐞𝐱𝐁𝐨𝐭~" + string_session;
+                        let md = "" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there CRONAZ-XD User! 👋🏻* 
+                        let desc = `*Hello there ACD MD V2 User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using CRONAZ-XD 💙* 
+ *Thanks for using ACD MD V2💙* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029Vb2xO7DJpe8fde8IGh14
+https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/W18T4SE6/COMINGSOON
+https://github.com/ACD-MD-TEAM/ACD-MD-BOT-V1
 
 > *© Powered BY ᴄʀᴏɴᴀᴢ xᴅ 💙*`;
                         await sock.sendMessage(sock.user.id, {
@@ -93,7 +93,7 @@ contextInfo: {
 externalAdReply: {
 title: "𝐂ʀᴏɴᴀᴢ 𝐗ᴅ",
 thumbnailUrl: "https://files.catbox.moe/3iuvkp.png",
-sourceUrl: "https://whatsapp.com/channel/0029Vb2xO7DJpe8fde8IGh14",
+sourceUrl: "https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -102,19 +102,19 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hello there CRONAZ-XD User! 👋🏻* 
+                            let desc = `*Hello there ACD MD V2 User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using CRONAZ-XD 💙* 
+ *Thanks for using ACD MD V2💙* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029Vb2xO7DJpe8fde8IGh14
+https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/W18T4SE6/COMINGSOON
+https://github.com/ACD-MD-TEAM/ACD-MD-BOT-V1
 
 > *© Powered BY ᴄʀᴏɴᴀᴢ xᴅ 💙*`;
                             await sock.sendMessage(sock.user.id, {
@@ -123,7 +123,7 @@ contextInfo: {
 externalAdReply: {
 title: "𝐂ʀᴏɴᴀᴢ 𝐗ᴅ",
 thumbnailUrl: "https://files.catbox.moe/3iuvkp.png",
-sourceUrl: "https://whatsapp.com/channel/0029Vb2xO7DJpe8fde8IGh14",
+sourceUrl: "https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
