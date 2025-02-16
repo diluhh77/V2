@@ -72,19 +72,11 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there ACD MD V2 User! 👋🏻* 
+                        let desc = `* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using ACD MD V2💙* 
-
-> Join WhatsApp Channel :- ⤵️
- 
-https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e
-
-Dont forget to fork the repo ⬇️
-
-https://github.com/ACD-MD-TEAM/ACD-MD-BOT-V1
+ *Thanks for using* 
 
 > *© Powered BY ᴄʀᴏɴᴀᴢ xᴅ 💙*`;
                         await sock.sendMessage(sock.user.id, {
@@ -93,7 +85,7 @@ contextInfo: {
 externalAdReply: {
 title: "𝐂ʀᴏɴᴀᴢ 𝐗ᴅ",
 thumbnailUrl: "https://files.catbox.moe/3iuvkp.png",
-sourceUrl: "https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e",
+sourceUrl: "",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -106,15 +98,7 @@ renderLargerThumbnail: true
 
 > Do not share your session id with anyone.
 
- *Thanks for using ACD MD V2💙* 
-
-> Join WhatsApp Channel :- ⤵️
- 
-https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e
-
-Dont forget to fork the repo ⬇️
-
-https://github.com/ACD-MD-TEAM/ACD-MD-BOT-V1
+ *Thanks for using* 
 
 > *© Powered BY ᴄʀᴏɴᴀᴢ xᴅ 💙*`;
                             await sock.sendMessage(sock.user.id, {
@@ -123,7 +107,7 @@ contextInfo: {
 externalAdReply: {
 title: "𝐂ʀᴏɴᴀᴢ 𝐗ᴅ",
 thumbnailUrl: "https://files.catbox.moe/3iuvkp.png",
-sourceUrl: "https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e",
+sourceUrl: "",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
